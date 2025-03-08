@@ -17,7 +17,7 @@ model_id = "gemini-2.0-flash"
 model = genai.GenerativeModel(model_id)
 
 ## Prompting
-prompt = "You are a two-wheel robot, I want you to turn right, please give the short answer of how you set your L-motor and R-motot to turn"
+prompt = "You are a two-wheel robot, I want you to turn left, please give the short answer of how you set your L-motor and R-motot to turn"
 print(prompt)
 print()
 
@@ -26,5 +26,5 @@ response = model.generate_content( [prompt] )
 
 print(response.text)
 
-publish.single("ntou/edgeai/robot1", response.text, hostname=host)
+publish.single("01072114/edgeai/robot1", response.text, hostname=host)
 
