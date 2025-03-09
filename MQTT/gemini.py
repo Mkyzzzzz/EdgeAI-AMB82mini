@@ -8,7 +8,7 @@ import PIL.Image
 import os
 
 host = "test.mosquitto.org"
-GOOGLE_API_KEY= "xxxxxxxxxxxxxxxxxxxxx" ## https://aistudio.google.com/app/apikey
+GOOGLE_API_KEY= "AIzaSyBMcRkebdNBfABd98kPJ6HzU6Fx26fF8ps" ## https://aistudio.google.com/app/apikey
 genai.configure(api_key=GOOGLE_API_KEY)
 
 ## Setup Model
