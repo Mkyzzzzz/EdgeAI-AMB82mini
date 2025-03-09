@@ -26,5 +26,5 @@ response = model.generate_content( [prompt] )
 
 print(response.text)
 
-publish.single("01072114/edgeai/robot1", response.text, hostname=host)
+publish.single("ntou/01072114/edgeai/robot1", response.text, hostname=host)
 
